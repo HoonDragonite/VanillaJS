@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/login.css" rel="stylesheet" type="text/css">
+    <title>My Login Page</title>
+</HEAD>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div id="logo"><span>My Header</span></div>
+        </header>
+        <main class="container">
+            <div class="content">
+                <section class="login_area">
+                    <div class="input_row" id="id_area">
+                        <input class="input" id="id" placeholder="Input your ID" type="text" onkeydown="moveToPw();">
+                    </div>
+                    <div class="input_row" id="pw_area">
+                        <input class="input" id="pw" placeholder="Input your PW" type="password" onkeyup="enterKey();">
+                    </div>
+                    <input class="btn_login" id="submit" title="로그인" alt="로그인" value="로그인" type="submit"></input>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div id="footer">My Footer</div>
+        </footer>
+    </div>
+    <script src="js/common.js"></script>
+</body>
+</HTML>
