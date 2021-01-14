@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*승훈*/
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 93%);
+}
+
+.hoon-best-area{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+}
+.hoon-best-product{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 20px;
+}
+.hoon-big-product{
+    width: 400px;
+    height: 100%;
+    margin: 0 auto;
+}
+.hoon-big-thumb{
+    background-color: beige;
+    width: 400px;
+    height: 400px;
+}
+.hoon-big-tit, .hoon-big-price{
+    font-size: 1.0em;
+    margin:10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow : ellipsis;
+}
+.hoon-middle-line{
+    text-decoration: line-through;
+    color:#0e0e0e;
+}
+.hoon-small-list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.hoon-small-product{
+    width: 190px;
+    height: 240px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+.hoon-small-thumb{
+    width: 190px;
+    height: 190px;
+    background-color: azure;
+}
+.hoon-small-tit, .hoon-small-price, .hoon-small-sale{
+    width: 190px;
+    font-size: 0.9em;
+    margin: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow : ellipsis;
+}
