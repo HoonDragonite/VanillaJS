@@ -46,3 +46,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* 공통 CSS */
+
+@media (min-width: 320px){  /* 모바일 */
+	
+}
+
+@media (min-width: 768px){ /* 태블릿 */
+
+}
+
+@media (min-width: 1024px){ /* 데스크탑 */
+
+}
